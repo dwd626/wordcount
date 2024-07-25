@@ -10,4 +10,4 @@ cd wordcount/src/main/java
 javac -cp . wordcount/WordCount.java
 
 ### run
-java -cp . wordcount.WordCount ../resources/predefinedWords.txt ../resources/words.txt
+java -cp . wordcount/WordCount.java ../resources/predefinedWords.txt ../resources/secondaryWords.txt ../resources/words.txt
